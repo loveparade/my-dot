@@ -1,0 +1,28 @@
+sw_volume: 43
+audio_device_state:0:YuLong Audio DAC
+audio_device_state:1:pulse audio
+state: stop
+current: 0
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:萧亚轩《同名专辑》/01.没有人.dsf
+1:DEMON HI-FI STRINGS-V.A.0/01 - Handel Overture (Allego) from Water Music.dsf
+2:[TommyVocaloid@astost][160825][HIRES][RADWIMPS]「君の名は。」[48kHz 24bit]/01 夢灯籠.flac
+3:郭静 我们曾相爱  2016 FLAC/01 - 我们曾相爱.flac
+song_begin: 谭艳-舍爱(DSD)/CDImage.wav
+Range: 0-291600
+Time: 3630.986000
+Date: 2013
+Album: ̷??-?ᰮ(DSD)
+Track: 01
+Title: ????û????
+mtime: 1361426894
+song_end
+5:楊千嬅---狼來了 DSF/08 認錯人---天天乐活  淘宝店.dsf
+playlist_end

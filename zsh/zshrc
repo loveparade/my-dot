@@ -1,0 +1,60 @@
+#nvm
+#source /usr/share/nvm/init-nvm.sh
+
+#antigen
+source ~/Documents/code/shell/antigen.zsh
+antigen use oh-my-zsh
+
+# for zsh
+antigen bundle command-not-found
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-completions
+
+# for git
+antigen bundle git
+antigen bundle git-flow-avh
+antigen bundle git-extras
+
+# for python
+antigen bundle pip
+antigen bundle pyenv
+antigen bundle python
+
+# for java
+antigen bundle jsontools
+antigen bundle mvn
+antigen bundle urltools
+
+# for front-end
+antigen bundle nvm
+antigen bundle node
+antigen bundle npm
+antigen bundle yarn
+
+# for shell & system
+antigen bundle fasd
+antigen bundle chrissicool/zsh-256color
+antigen bundle last-working-dir
+antigen bundle ssh-agent
+antigen bundle systemd
+antigen bundle tmux
+antigen bundle vscode
+antigen bundle web-search
+
+# for testing
+antigen bundle httpie
+antigen bundle docker
+antigen bundle docker-compose
+
+antigen theme agnoster
+antigen apply
+
+alias vim=nvim
+
+export PATH=$PATH:/home/liuliang/.yarn/bin:/home/liuliang/go/bin
+export GOPATH=/home/liuliang/Documents/code/go
+
+export GO111MODULE=on
+export GOPROXY=https://goproxy.cn,direct
+export GOPRIVATE=gitee.com
