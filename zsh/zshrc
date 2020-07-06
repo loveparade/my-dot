@@ -53,7 +53,7 @@ antigen apply
 alias vim=nvim
 
 export PATH=$PATH:/home/liuliang/.yarn/bin:/home/liuliang/go/bin
-export GOPATH=/home/liuliang/Documents/code/go
+export GOPATH=/home/liuliang/go
 
 export GO111MODULE=on
 export GOPROXY=https://goproxy.cn,direct
